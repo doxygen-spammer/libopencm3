@@ -35,6 +35,8 @@
 #	include <libopencm3/sam/4l/memorymap.h>
 #elif defined(SAMD)
 #	include <libopencm3/sam/d/memorymap.h>
+#elif defined(SAMD21)
+#	include <libopencm3/sam/d21/memorymap.h>
 #else
 #	error "Processor family not defined."
 #endif
